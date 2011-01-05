@@ -1,0 +1,34 @@
+.\" Process this file with
+.\" groff -man -Tascii scrobblethis.1
+.\"
+.TH SCROBBLETHIS 1 "November 2009" "scrobblethis" "User Commands"
+.SH NAME
+scrobblethis \- Command\-line portable player log scrobbler
+.SH SYNOPSIS
+.B scrobblethis
+[\fBOPTIONS\fR] [\fBPATH\fR]
+.SH DESCRIPTION
+scrobblethis is a command-line utility that can scrobble (submit info about played music) logs created by media players running Rockbox (or any other firmware that does) to social music websites like Last.fm and Libre.fm.
+You can specify a \fBPATH\fR to where your .scrobbler.log file is (usually found at the root of your
+portable device) or leave it to be probed.
+.SH OPTIONS
+.TP
+\fB\-\-version\fR
+show program's version number and exit
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+show this help message and exit
+.HP
+\fB\-q\fR, \fB\-\-quiet\fR
+.SH FILES
+.I $XDG_CONFIG_HOME/scrobblethis/accounts.config
+.RS
+The accounts configuration file that contains usernames and passwords of one or more accounts to scrobble to.
+It's usually expanded to ~/.config/scrobblethis/accounts.config
+.RS
+.SH BUGS
+Report to http://launchpad.net/scrobblethis
+.RS
+.SH AUTHOR
+Amr Hassan <amr.hassan@gmail.com>
+

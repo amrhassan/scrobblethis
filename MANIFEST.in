@@ -1,0 +1,7 @@
+include setup.py
+include scrobblethis
+include scrobblethis.1.gz
+include COPYING
+include INSTALL
+include AUTHORS
+include .build
