@@ -1,0 +1,1 @@
+scrobblethis is a command-line utility that can scrobble (submit info about played music) logs created by media players running Rockbox (or any other firmware that does) to social music websites like Last.fm and Libre.fm.
